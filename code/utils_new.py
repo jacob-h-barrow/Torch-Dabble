@@ -8,11 +8,6 @@ from torch_codecs import NumpyEncoder, NumpyDecoder
 from models.basic_nn_module import Weights, Model
 from dataclasses import dataclass
 from path import Path
-
-import sys
-
-sys.path.append('/home/parzival/Desktop/DL_2023/')
-
 from proc_gpu import GpuResourceUse
 
 @dataclass
