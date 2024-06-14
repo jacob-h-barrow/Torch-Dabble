@@ -6,10 +6,6 @@ from torch.utils.data import DataLoader
 from torchvision import datasets
 from torchvision.transforms import ToTensor
 from dataclasses import dataclass
-import sys
-
-sys.path.append('/home/parzival/Desktop/DL_2023/')
-
 from proc_gpu import GpuResourceUse, GpuHandler
 
 @dataclass
