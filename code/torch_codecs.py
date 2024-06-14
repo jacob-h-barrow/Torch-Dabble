@@ -1,6 +1,9 @@
 import json
 import numpy as np
 
+##################################
+########### ChatGPT ##############
+##################################
 class NumpyEncoder(json.JSONEncoder):
     def default(self, obj):
         if isinstance(obj, np.ndarray):
@@ -15,3 +18,6 @@ class NumpyDecoder(json.JSONDecoder):
         if isinstance(obj, list):
             return np.array(obj)
         return obj
+##################################
+########### ChatGPT ##############
+##################################
